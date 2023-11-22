@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <title>Shop</title>
+</head>
+    <body>
+        <nav class="navbar is-light" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+              <a class="navbar-item" href="https://purmerend.jarvis.bit-academy.nl/a/dashboard">
+                <img src="79d29ca1-1800-45be-b5f6-4e0edc2477a6.png" width="" height="28">
+              </a>
+          
+              <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+              </a>
+            </div>
+          
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                  <a class="navbar-item" href="http://127.0.0.1:5500/Bulma-018bf102-018bf102/index.html">
+                    Home
+                  </a>
+          
+                  <a class="navbar-item" href="http://127.0.0.1:5500/Bulma-018bf102-018bf102/shop.html">
+                    Shop
+                  </a>
+
+                  <a class="navbar-item" href="http://127.0.0.1:5500/Bulma-018bf102-018bf102/featured.html">
+                    Featured
+                  </a>
+
+                  <a class="navbar-item" href="http://127.0.0.1:5500/Bulma-018bf102-018bf102/agenda.html">
+                    Agenda
+                  </a>
+          
+                <div class="navbar-item has-dropdown is-hoverable">
+                  <a class="navbar-link">
+                    More
+                  </a>
+          
+                  <div class="navbar-dropdown">
+                    <a class="navbar-item" href="http://127.0.0.1:5500/Bulma-018bf102-018bf102/socials.html">
+                      Socials
+                    </a>
+                    <a class="navbar-item" href="http://127.0.0.1:5500/Bulma-018bf102-018bf102/reviews.html">
+                      Reviews
+                    </a>
+                    <a class="navbar-item">
+                      Contact
+                    </a>
+                    <hr class="navbar-divider">
+                    <a class="navbar-item">
+                      Report an issue
+                    </a>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="navbar-end">
+                <div class="navbar-item">
+                  <div class="buttons">
+                    <a class="button is-info" href="http://127.0.0.1:5500/Bulma-018bf102-018bf102/login2.html">
+                      <strong>Sign up</strong>
+                    </a>
+                    <a class="button is-light" href="http://127.0.0.1:5500/Bulma-018bf102-018bf102/login.html">
+                      Log in
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+
+          <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                var burger = document.querySelector('.navbar-burger');
+                var menu = document.querySelector('.navbar-menu');
+        
+                burger.addEventListener('click', function () {
+                    burger.classList.toggle('is-active');
+                    menu.classList.toggle('is-active');
+                });
+            });
+        </script>
+
+<section class="section">
+    <div class="container">
+      <h1 class="title">Our Monitors</h1>
+      <div class="columns is-multiline">
+        <!-- First row with three products -->
+        <div class="column is-4">
+          <!-- Product 1 -->
+          <div class="card">
+            <!-- Product 1 content -->
+            <!-- You can replace placeholder content with actual product details -->
+            <div class="card-image">
+              <figure class="image">
+                <img src="id-11134207-7qul6-lg4ude0sftt4f2.jpeg" alt="Product 1">
+              </figure>
+            </div>
+            <div class="card-content">
+              <p class="title is-5">MSI G2412</p>
+              <p>24 inch</p>
+              <p>IPS Panel</p>
+              <p>170 HZ</p>
+              <p>1080p</p>
+              <a href="https://www.amazon.nl/dp/B0BNGP36KY/?coliid=IPD6QCZGI98ZO&colid=2F2GYB4MZN9MZ&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it" class="button is-info">Buy</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Repeat the card structure for Product 2 and Product 3 -->
+        <!-- Product 2 -->
+        <div class="column is-4">
+          <div class="card">
+            <!-- Product 2 content -->
+            <!-- Replace placeholder content with actual product details -->
+            <div class="card-image">
+              <figure class="image">
+                <img src="koorui_1200x1200_crop_center.webp" alt="Product 2">
+              </figure>
+            </div>
+            <div class="card-content">
+              <p class="title is-5">Koorui 24E3</p>
+              <p>24 inch</p>
+              <p>IPS Panel</p>
+              <p>165 HZ</p>
+              <p>1080p</p>
+              <a href="https://www.amazon.nl/dp/B0BQ1WCQT2/?coliid=IKHY9FIA4JVKE&colid=2F2GYB4MZN9MZ&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it" class="button is-info">Buy</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="column is-4">
+          <div class="card">
+            <!-- Product 3 content -->
+            <!-- Replace placeholder content with actual product details -->
+            <div class="card-image">
+              <figure class="image">
+                <img src="https://via.placeholder.com/300x300" alt="Product 3">
+              </figure>
+            </div>
+            <div class="card-content">
+              <p class="title is-5">Product 3</p>
+              <p>Description of Product 3.</p>
+              <a href="#" class="button is-info">Product 3 Link</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Second row with the next three products -->
+        <!-- Repeat the same structure for the next set of three products -->
+      </div>
+    </div>
+  </section>
+</body>
+</html>
